@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MundoFantasy — Próxima jornada y noticias</title>
+  <meta name="description" content="MundoFantasy: Próxima jornada, noticias, alineaciones, calendario, clasificación, fichajes y rumores, lesionados y sancionados, chollos de mercado.">
+  <link rel="icon" href="assets/favicon.ico">
+  <!-- Tailwind CDN (no hay que instalar nada) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .fade-in { opacity: 0; transform: translateY(6px); animation: fadeIn .45s ease forwards; }
+    @keyframes fadeIn { to { opacity:1; transform:translateY(0);} }
+    .card { background:#fff; border-radius:18px; box-shadow:0 8px 22px rgba(0,0,0,.06); }
+    .link-underline:hover { text-decoration: underline; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Top Nav -->
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="./" class="flex items-center gap-3">
+        <img src="assets/logo.png" class="h-9 w-9 rounded-xl object-contain" alt="MundoFantasy">
+        <span class="text-lg font-semibold tracking-tight">MundoFantasy</span>
+      </a>
+      <nav class="hidden sm:flex items-center gap-5 text-sm">
+        <a class="link-underline" href="pages/alineaciones.html">Alineaciones</a>
+        <a class="link-underline" href="pages/calendario.html">Calendario</a>
+        <a class="link-underline" href="pages/clasificacion.html">Clasificación</a>
+        <a class="link-underline" href="pages/fichajes-rumores.html">Fichajes y rumores</a>
+        <a class="link-underline" href="pages/lesiones-sanciones.html">Lesionados y sancionados</a>
+        <a class="link-underline" href="pages/chollos.html">Chollos de mercado</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Próxima jornada -->
+  <section class="max-w-6xl mx-auto px-4 pt-8 fade-in">
+    <div class="card p-6 md:p-8">
+      <div class="flex items-center gap-4">
+        <img src="assets/logo.png" alt="MundoFantasy" class="h-12 w-12 rounded-xl object-contain">
+        <div>
+          <h1 class="text-2xl md:text-3xl font-bold">Próxima jornada</h1>
+          <p class="text-gray-600">Partidos clave y parches recomendados para tu once.</p>
+        </div>
+      </div>
+      <div id="fixtures" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+        <!-- JS pintará aquí las tarjetas de partidos -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Noticias -->
+  <section class="max-w-6xl mx-auto px-4 py-8 fade-in" style="animation-delay:.12s">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="text-xl md:text-2xl font-bold">Últimas noticias</h2>
+      <a href="#" class="text-sm text-gray-600 link-underline">Ver todas</a>
+    </div>
+    <div id="news" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <!-- JS pintará aquí las tarjetas de noticias -->
+    </div>
+  </section>
+
+  <footer class="mt-10 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-600 flex items-center justify-between">
+      <span>© <span id="year"></span> MundoFantasy</span>
+      <a class="link-underline" href="sitemap.xml">Sitemap</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>

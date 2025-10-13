@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lesionados y sancionados — MundoFantasy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="../assets/favicon.ico">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../" class="flex items-center gap-3">
+        <img src="../assets/logo.png" class="h-9 w-9 rounded-xl object-contain" alt="MundoFantasy">
+        <span class="text-lg font-semibold tracking-tight">MundoFantasy</span>
+      </a>
+      <nav class="hidden sm:flex items-center gap-5 text-sm">
+        <a class="link-underline" href="alineaciones.html">Alineaciones</a>
+        <a class="link-underline" href="calendario.html">Calendario</a>
+        <a class="link-underline" href="clasificacion.html">Clasificación</a>
+        <a class="link-underline" href="fichajes-rumores.html">Fichajes y rumores</a>
+        <a class="link-underline" href="lesiones-sanciones.html">Lesionados y sancionados</a>
+        <a class="link-underline" href="chollos.html">Chollos de mercado</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8">
+    <h1 class="text-2xl md:text-3xl font-bold">Lesionados y sancionados</h1>
+    <p class="text-gray-600 mt-2">Próximamente: probables XI por equipo y últimas novedades.</p>
+  </main>
+
+  <footer class="mt-10 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-600 flex items-center justify-between">
+      <span>© <span id="year"></span> MundoFantasy</span>
+      <a class="link-underline" href="../sitemap.xml">Sitemap</a>
+    </div>
+  </footer>
+
+  <script src="../app.js"></script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
