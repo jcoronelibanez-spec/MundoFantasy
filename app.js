@@ -1,31 +1,25 @@
-// app.js
 async function loadFixtures() {
   try {
-    const res = await fetch("fixtures.json?v=" + Date.now(), { cache: "no-store" });
+    const res = await fetch('fixtures.json?v=' + Date.now(), { cache: 'no-store' });
     const list = await res.json();
 
-    const container = document.getElementById("fixtures");
-    if (!container) return;
+    const box = document.getElementById('fixtures');
+    if (!box) return;
 
-    if (!list.length) {
-      container.innerHTML = `<p>No hay partidos disponibles por ahora.</p>`;
+    if (!Array.isArray(list) || list.length === 0) {
+      box.innerHTML = `<p class="text-gray-600">No hay partidos programados.</p>`;
       return;
     }
 
-    container.innerHTML = list
-      .map(
-        (m) => `
-        <div class="match-card">
-          <h3>${m.local} vs ${m.visitante}</h3>
-          <p>${m.fecha}</p>
-          <p class="venue">${m.estadio}</p>
-        </div>
-      `
-      )
-      .join("");
+    box.innerHTML = list.map(m => `
+      <div class="card p-4 hover:shadow transition">
+        <div class="text-xs text-gray-500">${m.liga || 'LaLiga'}</div>
+        <div class="text-lg font-semibold mt-1">${m.local} <span class="text-gray-400">vs</span> ${m.visitante}</div>
+        <div class="text-sm text-gray-600">${m.fecha}${m.estadio ? ' · ' + m.estadio : ''}</div>
+      </div>
+    `).join('');
   } catch (e) {
-    console.error("❌ Error cargando partidos:", e);
+    console.error('❌ Error cargando fixtures:', e);
   }
 }
-
-document.addEventListener("DOMContentLoaded", loadFixtures);
+document.addEventListener('DOMContentLoaded', loadFixtures);
