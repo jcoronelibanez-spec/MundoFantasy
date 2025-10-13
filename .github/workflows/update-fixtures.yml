@@ -2,7 +2,7 @@ name: Update fixtures daily
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # cada día a las 06:00 UTC (~08:00 España)
+    - cron: "0 6 * * *"   # cada día a las 06:00 UTC (~08:00 hora española)
   workflow_dispatch:       # permite ejecutarlo manualmente
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Use Node
+      - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -20,10 +20,10 @@ jobs:
       - name: Run updater
         env:
           APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
-        run: node scripts/update-fixtures.js
+        run: node update-fixtures.js
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto-update fixtures.json"
-          file_pattern: "data/fixtures.json"
+          file_pattern: "fixtures.json"
