@@ -40,14 +40,8 @@ async function run() {
   const key = process.env.APIFOOTBALL_KEY;
   if (!key) { console.error('Falta APIFOOTBALL_KEY'); process.exit(1); }
 
-  let url;
-  if (ONLY_NEXT_WEEKEND) {
-    const { fromISO, toISO } = nextWeekendRangeUTC();
-    url = `${API_URL}?league=${LEAGUE_ID}&season=${SEASON}&from=${fromISO}&to=${toISO}`;
-  } else {
-    url = `${API_URL}?league=${LEAGUE_ID}&season=${SEASON}&next=20`;
-  }
-
+ 
+const url = `${API_URL}?league=${LEAGUE_ID}&season=${SEASON}&next=20`;
   const res = await fetch(url, { headers: { 'x-apisports-key': key } });
   if (!res.ok) {
     console.error('Error API:', res.status, await res.text());
@@ -71,3 +65,4 @@ async function run() {
 }
 
 run().catch(e => { console.error(e); process.exit(1); });
+
