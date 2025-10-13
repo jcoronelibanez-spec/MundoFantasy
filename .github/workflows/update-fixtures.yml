@@ -3,7 +3,7 @@ name: Update fixtures daily
 on:
   schedule:
     - cron: "0 6 * * *"   # cada día a las 06:00 UTC (~08:00 España)
-  workflow_dispatch:       # ejecutar manualmente
+  workflow_dispatch:       # permite ejecutarlo manualmente
 
 jobs:
   update:
