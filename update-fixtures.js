@@ -1,68 +1,46 @@
-// scripts/update-fixtures.js
-const fs = require('fs');
-const path = require('path');
+// update-fixtures.js
+const fs = require("fs");
+const fetch = require("node-fetch");
 
-const API_URL = 'https://v3.football.api-sports.io/fixtures';
-const LEAGUE_ID = 140; // LaLiga
-const TIMEZONE = 'Europe/Madrid';
+const API_KEY = process.env.APIFOOTBALL_KEY;
+const LEAGUE_ID = 140; // LaLiga (España)
+const SEASON = 2024;   // Temporada actual
 
-// Season automática (julio o después = año actual; si no, año anterior)
-function getCurrentSeason() {
-  const now = new Date();
-  const m = now.getUTCMonth() + 1;
-  const y = now.getUTCFullYear();
-  return m >= 7 ? y : y - 1;
-}
-const SEASON = getCurrentSeason();
+async function fetchFixtures() {
+  const url = `https://v3.football.api-sports.io/fixtures?league=${LEAGUE_ID}&season=${SEASON}&next=20`;
 
-// Solo próximo fin de semana
-const ONLY_NEXT_WEEKEND = true;
+  const response = await fetch(url, {
+    headers: { "x-apisports-key": API_KEY },
+  });
 
-function formatDate(dtISO, tz = TIMEZONE) {
-  const d = new Date(dtISO);
-  const p = new Intl.DateTimeFormat('es-ES', {
-    timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit',
-    hour: '2-digit', minute: '2-digit', hour12: false
-  }).formatToParts(d).reduce((a, x) => (a[x.type] = x.value, a), {});
-  return `${p.year}-${p.month}-${p.day} ${p.hour}:${p.minute}`;
-}
-
-function nextWeekendRangeUTC() {
-  const now = new Date();
-  const dow = now.getUTCDay(); // 0=dom
-  const daysToFriday = (5 - dow + 7) % 7 || 7;
-  const start = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + daysToFriday, 0, 0, 0));
-  const end = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate() + 2, 23, 59, 59));
-  return { fromISO: start.toISOString().slice(0,19), toISO: end.toISOString().slice(0,19) };
-}
-
-async function run() {
-  const key = process.env.APIFOOTBALL_KEY;
-  if (!key) { console.error('Falta APIFOOTBALL_KEY'); process.exit(1); }
-
- 
-const url = `${API_URL}?league=${LEAGUE_ID}&season=${SEASON}&next=20`;
-  const res = await fetch(url, { headers: { 'x-apisports-key': key } });
-  if (!res.ok) {
-    console.error('Error API:', res.status, await res.text());
+  if (!response.ok) {
+    console.error("❌ Error al obtener datos:", response.status, await response.text());
     process.exit(1);
   }
-  const data = await res.json();
 
-  const fixtures = (data.response || [])
-    .filter(x => String(x.league?.id) === String(LEAGUE_ID) && String(x.league?.season) === String(SEASON))
-    .sort((a,b) => new Date(a.fixture.date) - new Date(b.fixture.date))
-    .map(x => ({
-      local: x.teams.home.name,
-      visitante: x.teams.away.name,
-      fecha: formatDate(x.fixture.date, TIMEZONE),
-      liga: x.league.name
-    }));
+  const data = await response.json();
 
-  const out = path.join(process.cwd(), 'data', 'fixtures.json');
-  fs.writeFileSync(out, JSON.stringify(fixtures, null, 2), 'utf-8');
-  console.log(`✅ Season ${SEASON} | ${fixtures.length} partidos → ${out}`);
+  if (!data.response) {
+    console.error("❌ No se pudieron obtener los partidos.");
+    process.exit(1);
+  }
+
+  const fixtures = data.response.map((match) => ({
+    local: match.teams.home.name,
+    visitante: match.teams.away.name,
+    fecha: new Date(match.fixture.date).toLocaleString("es-ES", {
+      dateStyle: "short",
+      timeStyle: "short",
+      timeZone: "Europe/Madrid",
+    }),
+    estadio: match.fixture.venue.name,
+  }));
+
+  fs.writeFileSync("fixtures.json", JSON.stringify(fixtures, null, 2));
+  console.log("✅ fixtures.json actualizado correctamente.");
 }
 
-run().catch(e => { console.error(e); process.exit(1); });
-
+fetchFixtures().catch((err) => {
+  console.error("❌ Error general:", err);
+  process.exit(1);
+});
