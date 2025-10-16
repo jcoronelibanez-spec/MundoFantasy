@@ -2,14 +2,14 @@ name: Update fixtures daily
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # cada día a las 06:00 UTC (~08:00 España)
-  workflow_dispatch:       # permite ejecutarlo manualmente
+    - cron: "0 6 * * *"   # todos los días 06:00 UTC (~08:00 España)
+  workflow_dispatch:       # permite ejecutarlo manualmente desde Actions
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # necesario para hacer commit
+      contents: write      # necesario para hacer commit
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -19,13 +19,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run updater
+      - name: Run updater (football-data.org)
         env:
-          APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
+          FOOTBALLDATA_KEY: ${{ secrets.FOOTBALLDATA_KEY }}
         run: node update-fixtures.js
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-update fixtures.json"
+          commit_message: "chore: auto-update fixtures.json (football-data.org)"
           file_pattern: "fixtures.json"
