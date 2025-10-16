@@ -1,2 +1,0 @@
-/* Retoques opcionales para detalles finos */
-html, body { scroll-behavior: smooth; }
