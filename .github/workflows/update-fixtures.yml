@@ -3,13 +3,13 @@ name: Update fixtures daily
 on:
   schedule:
     - cron: "0 6 * * *"   # todos los días 06:00 UTC (~08:00 España)
-  workflow_dispatch:       # permite ejecutarlo manualmente desde Actions
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write      # necesario para hacer commit
+      contents: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -27,5 +27,5 @@ jobs:
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-update fixtures.json (football-data.org)"
+          commit_message: "chore: auto-update fixtures.json (next matchday)"
           file_pattern: "fixtures.json"
