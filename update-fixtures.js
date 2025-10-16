@@ -1,11 +1,11 @@
-// update-fixtures.js — próxima jornada (football-data.org v4, competición PD = LaLiga)
+// update-fixtures.js — próxima jornada con fallback (football-data.org v4, PD = LaLiga)
 const fs = require('fs');
 
 const API_URL  = 'https://api.football-data.org/v4/competitions/PD/matches';
 const TIMEZONE = 'Europe/Madrid';
 
-// Rango: hoy → hoy + 21 días (de aquí detectamos la próxima jornada)
-function rangeNextDays(days = 21) {
+// Rango: hoy → hoy + N días (ampliado a 60 para garantizar resultados)
+function rangeNextDays(days = 60) {
   const now = new Date();
   const to  = new Date(now);
   to.setUTCDate(to.getUTCDate() + days);
@@ -13,11 +13,12 @@ function rangeNextDays(days = 21) {
   return { from: d(now), to: d(to) };
 }
 
-// YYYY-MM-DD y HH:mm locales España
+// Formatos locales para España
 function formatLocal(iso, tz = TIMEZONE) {
   const d = new Date(iso);
   const parts = new Intl.DateTimeFormat('es-ES', {
-    timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit',
+    timeZone: tz,
+    year: 'numeric', month: '2-digit', day: '2-digit',
     hour: '2-digit', minute: '2-digit', hour12: false
   }).formatToParts(d).reduce((a,p)=> (a[p.type]=p.value, a), {});
   return {
@@ -33,7 +34,7 @@ async function run() {
     process.exit(1);
   }
 
-  const { from, to } = rangeNextDays(21);
+  const { from, to } = rangeNextDays(60);
   const url = `${API_URL}?status=SCHEDULED&dateFrom=${from}&dateTo=${to}`;
   console.log('ℹ️ Pidiendo:', url);
 
@@ -52,17 +53,26 @@ async function run() {
     return;
   }
 
-  // Detecta la PRÓXIMA jornada (mínimo matchday con estado SCHEDULED)
-  const scheduled = ms.filter(m => m.status === 'SCHEDULED' && m.matchday != null);
-  const nextMD = Math.min(...scheduled.map(m => m.matchday));
-
-  // Filtra solo esa jornada
-  const jornada = scheduled.filter(m => m.matchday === nextMD)
+  // Partidos programados (SCHEDULED)
+  const scheduled = ms
+    .filter(m => m.status === 'SCHEDULED')
     .sort((a,b) => new Date(a.utcDate) - new Date(b.utcDate));
+
+  // Intento 1: detectar PRÓXIMA jornada por matchday
+  const withMD = scheduled.filter(m => m.matchday != null);
+  let nextMD = null;
+  if (withMD.length) {
+    nextMD = Math.min(...withMD.map(m => m.matchday));
+  }
+
+  // Si hay matchday → filtra esa jornada; si no → coge los próximos 10 partidos
+  const picked = nextMD
+    ? scheduled.filter(m => m.matchday === nextMD)
+    : scheduled.slice(0, 10);
 
   // Agrupar por fecha local (YYYY-MM-DD)
   const daysMap = new Map();
-  for (const m of jornada) {
+  for (const m of picked) {
     const { date, time } = formatLocal(m.utcDate);
     const item = {
       hora: time,
@@ -76,15 +86,13 @@ async function run() {
     daysMap.get(date).push(item);
   }
 
-  // Estructura final esperada por el front
   const out = {
-    matchday: nextMD,              // número de jornada
-    days: [...daysMap.entries()]   // [ [ 'YYYY-MM-DD', [ {..}, .. ] ], ... ]
-      .map(([date, matches]) => ({ date, matches }))
+    matchday: nextMD ?? null,
+    days: [...daysMap.entries()].map(([date, matches]) => ({ date, matches }))
   };
 
   fs.writeFileSync('fixtures.json', JSON.stringify(out, null, 2), 'utf-8');
-  console.log(`✅ Jornada ${nextMD} con ${jornada.length} partidos → fixtures.json`);
+  console.log(`✅ Jornada ${nextMD ?? 'fallback'} con ${picked.length} partidos → fixtures.json`);
 }
 
 run().catch(e => { console.error('❌ Error general:', e); process.exit(1); });
