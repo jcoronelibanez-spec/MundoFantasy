@@ -92,3 +92,38 @@ h2 {
   color: #666;
   font-size: 0.9rem;
 }
+/* contenedor */
+.upcoming { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+.upcoming h2 { font-weight: 700; letter-spacing: .3px; }
+
+/* grupo por día */
+.day-group { margin: 1.5rem 0 2.5rem; }
+.day-title { font-weight: 600; margin-bottom: .8rem; }
+.day-title span { color: #8a8a8a; font-weight: 400; margin-left: .5rem; }
+
+/* cuadrícula de partidos */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+/* tarjeta de partido */
+.match-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.match-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.08); }
+
+.match-card .time { font-size: .9rem; color: #22c55e; font-weight: 600; margin-bottom: 10px; }
+
+.teams { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.team { display: flex; align-items: center; gap: 8px; flex: 1; }
+.team img { width: 26px; height: 26px; object-fit: contain; }
+.team span { font-weight: 500; color: #222; }
+.vs { color: #888; font-weight: 600; }
+
+.empty { color: #666; }
