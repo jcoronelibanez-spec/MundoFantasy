@@ -1,4 +1,162 @@
-{
-  "matchday": null,
-  "days": []
-}
+[
+  {
+    "fecha": "2025-10-17 21:00",
+    "local": "Real Oviedo",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/1048.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-18 14:00",
+    "local": "Sevilla FC",
+    "visitante": "RCD Mallorca",
+    "localCrest": "https://crests.football-data.org/559.png",
+    "visitanteCrest": "https://crests.football-data.org/89.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-18 16:15",
+    "local": "FC Barcelona",
+    "visitante": "Girona FC",
+    "localCrest": "https://crests.football-data.org/81.png",
+    "visitanteCrest": "https://crests.football-data.org/298.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-18 18:30",
+    "local": "Villarreal CF",
+    "visitante": "Real Betis Balompié",
+    "localCrest": "https://crests.football-data.org/94.png",
+    "visitanteCrest": "https://crests.football-data.org/90.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-18 21:00",
+    "local": "Club Atlético de Madrid",
+    "visitante": "CA Osasuna",
+    "localCrest": "https://crests.football-data.org/78.png",
+    "visitanteCrest": "https://crests.football-data.org/79.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-19 14:00",
+    "local": "Elche CF",
+    "visitante": "Athletic Club",
+    "localCrest": "https://crests.football-data.org/285.png",
+    "visitanteCrest": "https://crests.football-data.org/77.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-19 16:15",
+    "local": "RC Celta de Vigo",
+    "visitante": "Real Sociedad de Fútbol",
+    "localCrest": "https://crests.football-data.org/558.png",
+    "visitanteCrest": "https://crests.football-data.org/92.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-19 18:30",
+    "local": "Levante UD",
+    "visitante": "Rayo Vallecano de Madrid",
+    "localCrest": "https://crests.football-data.org/88.png",
+    "visitanteCrest": "https://crests.football-data.org/87.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-19 21:00",
+    "local": "Getafe CF",
+    "visitante": "Real Madrid CF",
+    "localCrest": "https://crests.football-data.org/82.png",
+    "visitanteCrest": "https://crests.football-data.org/86.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-20 21:00",
+    "local": "Deportivo Alavés",
+    "visitante": "Valencia CF",
+    "localCrest": "https://crests.football-data.org/263.png",
+    "visitanteCrest": "https://crests.football-data.org/95.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-24 21:00",
+    "local": "Real Sociedad de Fútbol",
+    "visitante": "Sevilla FC",
+    "localCrest": "https://crests.football-data.org/92.png",
+    "visitanteCrest": "https://crests.football-data.org/559.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-25 14:00",
+    "local": "Girona FC",
+    "visitante": "Real Oviedo",
+    "localCrest": "https://crests.football-data.org/298.png",
+    "visitanteCrest": "https://crests.football-data.org/1048.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-25 16:15",
+    "local": "RCD Espanyol de Barcelona",
+    "visitante": "Elche CF",
+    "localCrest": "https://crests.football-data.org/80.png",
+    "visitanteCrest": "https://crests.football-data.org/285.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-25 18:30",
+    "local": "Athletic Club",
+    "visitante": "Getafe CF",
+    "localCrest": "https://crests.football-data.org/77.png",
+    "visitanteCrest": "https://crests.football-data.org/82.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-25 21:00",
+    "local": "Valencia CF",
+    "visitante": "Villarreal CF",
+    "localCrest": "https://crests.football-data.org/95.png",
+    "visitanteCrest": "https://crests.football-data.org/94.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-26 14:00",
+    "local": "RCD Mallorca",
+    "visitante": "Levante UD",
+    "localCrest": "https://crests.football-data.org/89.png",
+    "visitanteCrest": "https://crests.football-data.org/88.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-26 16:15",
+    "local": "Real Madrid CF",
+    "visitante": "FC Barcelona",
+    "localCrest": "https://crests.football-data.org/86.png",
+    "visitanteCrest": "https://crests.football-data.org/81.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-26 18:30",
+    "local": "CA Osasuna",
+    "visitante": "RC Celta de Vigo",
+    "localCrest": "https://crests.football-data.org/79.png",
+    "visitanteCrest": "https://crests.football-data.org/558.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-26 21:00",
+    "local": "Rayo Vallecano de Madrid",
+    "visitante": "Deportivo Alavés",
+    "localCrest": "https://crests.football-data.org/87.png",
+    "visitanteCrest": "https://crests.football-data.org/263.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-10-27 21:00",
+    "local": "Real Betis Balompié",
+    "visitante": "Club Atlético de Madrid",
+    "localCrest": "https://crests.football-data.org/90.png",
+    "visitanteCrest": "https://crests.football-data.org/78.png",
+    "liga": "Primera Division"
+  }
+]
