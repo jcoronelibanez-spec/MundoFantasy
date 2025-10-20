@@ -1,37 +1,5 @@
 [
   {
-    "fecha": "2025-10-19 14:00",
-    "local": "Elche CF",
-    "visitante": "Athletic Club",
-    "localCrest": "https://crests.football-data.org/285.png",
-    "visitanteCrest": "https://crests.football-data.org/77.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-10-19 16:15",
-    "local": "RC Celta de Vigo",
-    "visitante": "Real Sociedad de Fútbol",
-    "localCrest": "https://crests.football-data.org/558.png",
-    "visitanteCrest": "https://crests.football-data.org/92.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-10-19 18:30",
-    "local": "Levante UD",
-    "visitante": "Rayo Vallecano de Madrid",
-    "localCrest": "https://crests.football-data.org/88.png",
-    "visitanteCrest": "https://crests.football-data.org/87.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-10-19 21:00",
-    "local": "Getafe CF",
-    "visitante": "Real Madrid CF",
-    "localCrest": "https://crests.football-data.org/82.png",
-    "visitanteCrest": "https://crests.football-data.org/86.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2025-10-20 21:00",
     "local": "Deportivo Alavés",
     "visitante": "Valencia CF",
@@ -157,6 +125,38 @@
     "visitante": "Valencia CF",
     "localCrest": "https://crests.football-data.org/86.png",
     "visitanteCrest": "https://crests.football-data.org/95.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-02 14:00",
+    "local": "Levante UD",
+    "visitante": "RC Celta de Vigo",
+    "localCrest": "https://crests.football-data.org/88.png",
+    "visitanteCrest": "https://crests.football-data.org/558.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-02 16:15",
+    "local": "Deportivo Alavés",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/263.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-02 18:30",
+    "local": "FC Barcelona",
+    "visitante": "Elche CF",
+    "localCrest": "https://crests.football-data.org/81.png",
+    "visitanteCrest": "https://crests.football-data.org/285.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-02 21:00",
+    "local": "Real Betis Balompié",
+    "visitante": "RCD Mallorca",
+    "localCrest": "https://crests.football-data.org/90.png",
+    "visitanteCrest": "https://crests.football-data.org/89.png",
     "liga": "Primera Division"
   }
 ]
