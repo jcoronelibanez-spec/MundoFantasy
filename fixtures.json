@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2025-10-20 21:00",
-    "local": "Deportivo Alavés",
-    "visitante": "Valencia CF",
-    "localCrest": "https://crests.football-data.org/263.png",
-    "visitanteCrest": "https://crests.football-data.org/95.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2025-10-24 21:00",
     "local": "Real Sociedad de Fútbol",
     "visitante": "Sevilla FC",
@@ -157,6 +149,14 @@
     "visitante": "RCD Mallorca",
     "localCrest": "https://crests.football-data.org/90.png",
     "visitanteCrest": "https://crests.football-data.org/89.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-03 21:00",
+    "local": "Real Oviedo",
+    "visitante": "CA Osasuna",
+    "localCrest": "https://crests.football-data.org/1048.png",
+    "visitanteCrest": "https://crests.football-data.org/79.png",
     "liga": "Primera Division"
   }
 ]
