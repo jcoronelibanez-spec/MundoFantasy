@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2025-10-24 21:00",
-    "local": "Real Sociedad de Fútbol",
-    "visitante": "Sevilla FC",
-    "localCrest": "https://crests.football-data.org/92.png",
-    "visitanteCrest": "https://crests.football-data.org/559.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2025-10-25 14:00",
     "local": "Girona FC",
     "visitante": "Real Oviedo",
@@ -157,6 +149,14 @@
     "visitante": "CA Osasuna",
     "localCrest": "https://crests.football-data.org/1048.png",
     "visitanteCrest": "https://crests.football-data.org/79.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-07 21:00",
+    "local": "Elche CF",
+    "visitante": "Real Sociedad de Fútbol",
+    "localCrest": "https://crests.football-data.org/285.png",
+    "visitanteCrest": "https://crests.football-data.org/92.png",
     "liga": "Primera Division"
   }
 ]
