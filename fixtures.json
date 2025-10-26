@@ -1,37 +1,5 @@
 [
   {
-    "fecha": "2025-10-25 14:00",
-    "local": "Girona FC",
-    "visitante": "Real Oviedo",
-    "localCrest": "https://crests.football-data.org/298.png",
-    "visitanteCrest": "https://crests.football-data.org/1048.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-10-25 16:15",
-    "local": "RCD Espanyol de Barcelona",
-    "visitante": "Elche CF",
-    "localCrest": "https://crests.football-data.org/80.png",
-    "visitanteCrest": "https://crests.football-data.org/285.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-10-25 18:30",
-    "local": "Athletic Club",
-    "visitante": "Getafe CF",
-    "localCrest": "https://crests.football-data.org/77.png",
-    "visitanteCrest": "https://crests.football-data.org/82.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-10-25 21:00",
-    "local": "Valencia CF",
-    "visitante": "Villarreal CF",
-    "localCrest": "https://crests.football-data.org/95.png",
-    "visitanteCrest": "https://crests.football-data.org/94.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2025-10-26 14:00",
     "local": "RCD Mallorca",
     "visitante": "Levante UD",
@@ -157,6 +125,38 @@
     "visitante": "Real Sociedad de Fútbol",
     "localCrest": "https://crests.football-data.org/285.png",
     "visitanteCrest": "https://crests.football-data.org/92.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-08 14:00",
+    "local": "Girona FC",
+    "visitante": "Deportivo Alavés",
+    "localCrest": "https://crests.football-data.org/298.png",
+    "visitanteCrest": "https://crests.football-data.org/263.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-08 16:15",
+    "local": "Sevilla FC",
+    "visitante": "CA Osasuna",
+    "localCrest": "https://crests.football-data.org/559.png",
+    "visitanteCrest": "https://crests.football-data.org/79.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-08 18:30",
+    "local": "Club Atlético de Madrid",
+    "visitante": "Levante UD",
+    "localCrest": "https://crests.football-data.org/78.png",
+    "visitanteCrest": "https://crests.football-data.org/88.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-08 21:00",
+    "local": "RCD Espanyol de Barcelona",
+    "visitante": "Villarreal CF",
+    "localCrest": "https://crests.football-data.org/80.png",
+    "visitanteCrest": "https://crests.football-data.org/94.png",
     "liga": "Primera Division"
   }
 ]
