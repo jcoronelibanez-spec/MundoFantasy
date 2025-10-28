@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2025-10-27 21:00",
-    "local": "Real Betis Balompié",
-    "visitante": "Club Atlético de Madrid",
-    "localCrest": "https://crests.football-data.org/90.png",
-    "visitanteCrest": "https://crests.football-data.org/78.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2025-10-31 21:00",
     "local": "Getafe CF",
     "visitante": "Girona FC",
@@ -157,6 +149,14 @@
     "visitante": "Getafe CF",
     "localCrest": "https://crests.football-data.org/89.png",
     "visitanteCrest": "https://crests.football-data.org/82.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-11-09 21:00",
+    "local": "RC Celta de Vigo",
+    "visitante": "FC Barcelona",
+    "localCrest": "https://crests.football-data.org/558.png",
+    "visitanteCrest": "https://crests.football-data.org/81.png",
     "liga": "Primera Division"
   }
 ]
