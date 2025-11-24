@@ -1,37 +1,5 @@
 [
   {
-    "fecha": "2025-11-23 14:00",
-    "local": "Real Oviedo",
-    "visitante": "Rayo Vallecano de Madrid",
-    "localCrest": "https://crests.football-data.org/1048.png",
-    "visitanteCrest": "https://crests.football-data.org/87.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-11-23 16:15",
-    "local": "Real Betis Balompié",
-    "visitante": "Girona FC",
-    "localCrest": "https://crests.football-data.org/90.png",
-    "visitanteCrest": "https://crests.football-data.org/298.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-11-23 18:30",
-    "local": "Getafe CF",
-    "visitante": "Club Atlético de Madrid",
-    "localCrest": "https://crests.football-data.org/82.png",
-    "visitanteCrest": "https://crests.football-data.org/78.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-11-23 21:00",
-    "local": "Elche CF",
-    "visitante": "Real Madrid CF",
-    "localCrest": "https://crests.football-data.org/285.png",
-    "visitanteCrest": "https://crests.football-data.org/86.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2025-11-24 21:00",
     "local": "RCD Espanyol de Barcelona",
     "visitante": "Sevilla FC",
@@ -157,6 +125,38 @@
     "visitante": "Real Sociedad de Fútbol",
     "localCrest": "https://crests.football-data.org/263.png",
     "visitanteCrest": "https://crests.football-data.org/92.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-12-06 18:30",
+    "local": "Real Betis Balompié",
+    "visitante": "FC Barcelona",
+    "localCrest": "https://crests.football-data.org/90.png",
+    "visitanteCrest": "https://crests.football-data.org/81.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-12-06 21:00",
+    "local": "Athletic Club",
+    "visitante": "Club Atlético de Madrid",
+    "localCrest": "https://crests.football-data.org/77.png",
+    "visitanteCrest": "https://crests.football-data.org/78.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-12-07 14:00",
+    "local": "Elche CF",
+    "visitante": "Girona FC",
+    "localCrest": "https://crests.football-data.org/285.png",
+    "visitanteCrest": "https://crests.football-data.org/298.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-12-07 16:15",
+    "local": "Valencia CF",
+    "visitante": "Sevilla FC",
+    "localCrest": "https://crests.football-data.org/95.png",
+    "visitanteCrest": "https://crests.football-data.org/559.png",
     "liga": "Primera Division"
   }
 ]
