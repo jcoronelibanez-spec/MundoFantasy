@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2025-11-24 21:00",
-    "local": "RCD Espanyol de Barcelona",
-    "visitante": "Sevilla FC",
-    "localCrest": "https://crests.football-data.org/80.png",
-    "visitanteCrest": "https://crests.football-data.org/559.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2025-11-28 21:00",
     "local": "Getafe CF",
     "visitante": "Elche CF",
@@ -157,6 +149,14 @@
     "visitante": "Sevilla FC",
     "localCrest": "https://crests.football-data.org/95.png",
     "visitanteCrest": "https://crests.football-data.org/559.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-12-07 18:30",
+    "local": "RCD Espanyol de Barcelona",
+    "visitante": "Rayo Vallecano de Madrid",
+    "localCrest": "https://crests.football-data.org/80.png",
+    "visitanteCrest": "https://crests.football-data.org/87.png",
     "liga": "Primera Division"
   }
 ]
