@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2025-12-08 21:00",
-    "local": "CA Osasuna",
-    "visitante": "Levante UD",
-    "localCrest": "https://crests.football-data.org/79.png",
-    "visitanteCrest": "https://crests.football-data.org/88.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2025-12-12 21:00",
     "local": "Real Sociedad de Fútbol",
     "visitante": "Girona FC",
@@ -157,6 +149,14 @@
     "visitante": "Getafe CF",
     "localCrest": "https://crests.football-data.org/90.png",
     "visitanteCrest": "https://crests.football-data.org/82.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2025-12-22 21:00",
+    "local": "Athletic Club",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/77.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
     "liga": "Primera Division"
   }
 ]
