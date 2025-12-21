@@ -1,37 +1,5 @@
 [
   {
-    "fecha": "2025-12-20 14:00",
-    "local": "Real Oviedo",
-    "visitante": "RC Celta de Vigo",
-    "localCrest": "https://crests.football-data.org/1048.png",
-    "visitanteCrest": "https://crests.football-data.org/558.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-12-20 16:15",
-    "local": "Levante UD",
-    "visitante": "Real Sociedad de Fútbol",
-    "localCrest": "https://crests.football-data.org/88.png",
-    "visitanteCrest": "https://crests.football-data.org/92.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-12-20 18:30",
-    "local": "CA Osasuna",
-    "visitante": "Deportivo Alavés",
-    "localCrest": "https://crests.football-data.org/79.png",
-    "visitanteCrest": "https://crests.football-data.org/263.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2025-12-20 21:00",
-    "local": "Real Madrid CF",
-    "visitante": "Sevilla FC",
-    "localCrest": "https://crests.football-data.org/86.png",
-    "visitanteCrest": "https://crests.football-data.org/559.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2025-12-21 14:00",
     "local": "Girona FC",
     "visitante": "Club Atlético de Madrid",
@@ -157,6 +125,38 @@
     "visitante": "Real Sociedad de Fútbol",
     "localCrest": "https://crests.football-data.org/82.png",
     "visitanteCrest": "https://crests.football-data.org/92.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-01-10 14:00",
+    "local": "Real Oviedo",
+    "visitante": "Real Betis Balompié",
+    "localCrest": "https://crests.football-data.org/1048.png",
+    "visitanteCrest": "https://crests.football-data.org/90.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-01-10 16:15",
+    "local": "Villarreal CF",
+    "visitante": "Deportivo Alavés",
+    "localCrest": "https://crests.football-data.org/94.png",
+    "visitanteCrest": "https://crests.football-data.org/263.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-01-10 18:30",
+    "local": "Girona FC",
+    "visitante": "CA Osasuna",
+    "localCrest": "https://crests.football-data.org/298.png",
+    "visitanteCrest": "https://crests.football-data.org/79.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-01-10 21:00",
+    "local": "Valencia CF",
+    "visitante": "Elche CF",
+    "localCrest": "https://crests.football-data.org/95.png",
+    "visitanteCrest": "https://crests.football-data.org/285.png",
     "liga": "Primera Division"
   }
 ]
