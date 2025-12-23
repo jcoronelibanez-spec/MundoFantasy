@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2025-12-22 21:00",
-    "local": "Athletic Club",
-    "visitante": "RCD Espanyol de Barcelona",
-    "localCrest": "https://crests.football-data.org/77.png",
-    "visitanteCrest": "https://crests.football-data.org/80.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-01-02 21:00",
     "local": "Rayo Vallecano de Madrid",
     "visitante": "Getafe CF",
@@ -157,6 +149,14 @@
     "visitante": "Villarreal CF",
     "localCrest": "https://crests.football-data.org/90.png",
     "visitanteCrest": "https://crests.football-data.org/94.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-01-18 01:00",
+    "local": "RC Celta de Vigo",
+    "visitante": "Rayo Vallecano de Madrid",
+    "localCrest": "https://crests.football-data.org/558.png",
+    "visitanteCrest": "https://crests.football-data.org/87.png",
     "liga": "Primera Division"
   }
 ]
