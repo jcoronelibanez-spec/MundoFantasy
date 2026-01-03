@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-01-02 21:00",
-    "local": "Rayo Vallecano de Madrid",
-    "visitante": "Getafe CF",
-    "localCrest": "https://crests.football-data.org/87.png",
-    "visitanteCrest": "https://crests.football-data.org/82.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-01-03 14:00",
     "local": "RC Celta de Vigo",
     "visitante": "Valencia CF",
@@ -157,6 +149,14 @@
     "visitante": "Levante UD",
     "localCrest": "https://crests.football-data.org/86.png",
     "visitanteCrest": "https://crests.football-data.org/88.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-01-17 16:15",
+    "local": "RCD Mallorca",
+    "visitante": "Athletic Club",
+    "localCrest": "https://crests.football-data.org/89.png",
+    "visitanteCrest": "https://crests.football-data.org/77.png",
     "liga": "Primera Division"
   }
 ]
