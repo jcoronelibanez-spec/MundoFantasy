@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-01-09 21:00",
-    "local": "Getafe CF",
-    "visitante": "Real Sociedad de Fútbol",
-    "localCrest": "https://crests.football-data.org/82.png",
-    "visitanteCrest": "https://crests.football-data.org/92.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-01-10 14:00",
     "local": "Real Oviedo",
     "visitante": "Real Betis Balompié",
@@ -157,6 +149,14 @@
     "visitante": "CA Osasuna",
     "localCrest": "https://crests.football-data.org/87.png",
     "visitanteCrest": "https://crests.football-data.org/79.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-01-24 16:15",
+    "local": "Valencia CF",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/95.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
     "liga": "Primera Division"
   }
 ]
