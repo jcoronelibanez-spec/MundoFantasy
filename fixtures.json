@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-01-16 21:00",
-    "local": "RCD Espanyol de Barcelona",
-    "visitante": "Girona FC",
-    "localCrest": "https://crests.football-data.org/80.png",
-    "visitanteCrest": "https://crests.football-data.org/298.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-01-17 14:00",
     "local": "Real Madrid CF",
     "visitante": "Levante UD",
@@ -157,6 +149,14 @@
     "visitante": "Getafe CF",
     "localCrest": "https://crests.football-data.org/298.png",
     "visitanteCrest": "https://crests.football-data.org/82.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-01-30 21:00",
+    "local": "RCD Espanyol de Barcelona",
+    "visitante": "Deportivo Alavés",
+    "localCrest": "https://crests.football-data.org/80.png",
+    "visitanteCrest": "https://crests.football-data.org/263.png",
     "liga": "Primera Division"
   }
 ]
