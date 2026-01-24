@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-01-23 21:00",
-    "local": "Levante UD",
-    "visitante": "Elche CF",
-    "localCrest": "https://crests.football-data.org/88.png",
-    "visitanteCrest": "https://crests.football-data.org/285.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-01-24 14:00",
     "local": "Rayo Vallecano de Madrid",
     "visitante": "CA Osasuna",
@@ -157,6 +149,14 @@
     "visitante": "Sevilla FC",
     "localCrest": "https://crests.football-data.org/89.png",
     "visitanteCrest": "https://crests.football-data.org/559.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-02-06 21:00",
+    "local": "RC Celta de Vigo",
+    "visitante": "CA Osasuna",
+    "localCrest": "https://crests.football-data.org/558.png",
+    "visitanteCrest": "https://crests.football-data.org/79.png",
     "liga": "Primera Division"
   }
 ]
