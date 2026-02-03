@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-02-02 21:00",
-    "local": "RCD Mallorca",
-    "visitante": "Sevilla FC",
-    "localCrest": "https://crests.football-data.org/89.png",
-    "visitanteCrest": "https://crests.football-data.org/559.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-02-06 21:00",
     "local": "RC Celta de Vigo",
     "visitante": "CA Osasuna",
@@ -157,6 +149,14 @@
     "visitante": "Real Betis Balompié",
     "localCrest": "https://crests.football-data.org/89.png",
     "visitanteCrest": "https://crests.football-data.org/90.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-02-16 21:00",
+    "local": "Girona FC",
+    "visitante": "FC Barcelona",
+    "localCrest": "https://crests.football-data.org/298.png",
+    "visitanteCrest": "https://crests.football-data.org/81.png",
     "liga": "Primera Division"
   }
 ]
