@@ -1,37 +1,5 @@
 [
   {
-    "fecha": "2026-03-14 14:00",
-    "local": "Girona FC",
-    "visitante": "Athletic Club",
-    "localCrest": "https://crests.football-data.org/298.png",
-    "visitanteCrest": "https://crests.football-data.org/77.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-03-14 16:15",
-    "local": "Club Atlético de Madrid",
-    "visitante": "Getafe CF",
-    "localCrest": "https://crests.football-data.org/78.png",
-    "visitanteCrest": "https://crests.football-data.org/82.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-03-14 18:30",
-    "local": "Real Oviedo",
-    "visitante": "Valencia CF",
-    "localCrest": "https://crests.football-data.org/1048.png",
-    "visitanteCrest": "https://crests.football-data.org/95.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-03-14 21:00",
-    "local": "Real Madrid CF",
-    "visitante": "Elche CF",
-    "localCrest": "https://crests.football-data.org/86.png",
-    "visitanteCrest": "https://crests.football-data.org/285.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-03-15 14:00",
     "local": "RCD Mallorca",
     "visitante": "RCD Espanyol de Barcelona",
@@ -152,11 +120,43 @@
     "liga": "Primera Division"
   },
   {
+    "fecha": "2026-04-03 21:00",
+    "local": "Rayo Vallecano de Madrid",
+    "visitante": "Elche CF",
+    "localCrest": "https://crests.football-data.org/87.png",
+    "visitanteCrest": "https://crests.football-data.org/285.png",
+    "liga": "Primera Division"
+  },
+  {
     "fecha": "2026-04-05 02:00",
     "local": "Deportivo Alavés",
     "visitante": "CA Osasuna",
     "localCrest": "https://crests.football-data.org/263.png",
     "visitanteCrest": "https://crests.football-data.org/79.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-04-05 02:00",
+    "local": "Club Atlético de Madrid",
+    "visitante": "FC Barcelona",
+    "localCrest": "https://crests.football-data.org/78.png",
+    "visitanteCrest": "https://crests.football-data.org/81.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-04-05 02:00",
+    "local": "Real Betis Balompié",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/90.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-04-05 02:00",
+    "local": "Girona FC",
+    "visitante": "Villarreal CF",
+    "localCrest": "https://crests.football-data.org/298.png",
+    "visitanteCrest": "https://crests.football-data.org/94.png",
     "liga": "Primera Division"
   }
 ]
