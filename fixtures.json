@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-04-03 21:00",
-    "local": "Rayo Vallecano de Madrid",
-    "visitante": "Elche CF",
-    "localCrest": "https://crests.football-data.org/87.png",
-    "visitanteCrest": "https://crests.football-data.org/285.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-04-04 14:00",
     "local": "Real Sociedad de Fútbol",
     "visitante": "Levante UD",
@@ -157,6 +149,14 @@
     "visitante": "Getafe CF",
     "localCrest": "https://crests.football-data.org/88.png",
     "visitanteCrest": "https://crests.football-data.org/82.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-04-22 02:00",
+    "local": "Athletic Club",
+    "visitante": "CA Osasuna",
+    "localCrest": "https://crests.football-data.org/77.png",
+    "visitanteCrest": "https://crests.football-data.org/79.png",
     "liga": "Primera Division"
   }
 ]
