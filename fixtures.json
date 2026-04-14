@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-04-13 21:00",
-    "local": "Levante UD",
-    "visitante": "Getafe CF",
-    "localCrest": "https://crests.football-data.org/88.png",
-    "visitanteCrest": "https://crests.football-data.org/82.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-04-21 19:00",
     "local": "Athletic Club",
     "visitante": "CA Osasuna",
@@ -157,6 +149,14 @@
     "visitante": "RC Celta de Vigo",
     "localCrest": "https://crests.football-data.org/94.png",
     "visitanteCrest": "https://crests.football-data.org/558.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-04-27 21:00",
+    "local": "RCD Espanyol de Barcelona",
+    "visitante": "Levante UD",
+    "localCrest": "https://crests.football-data.org/80.png",
+    "visitanteCrest": "https://crests.football-data.org/88.png",
     "liga": "Primera Division"
   }
 ]
