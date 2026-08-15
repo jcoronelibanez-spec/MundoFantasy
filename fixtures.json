@@ -32,14 +32,6 @@
     "liga": "Primera Division"
   },
   {
-    "fecha": "2026-08-16 21:30",
-    "local": "RC Celta de Vigo",
-    "visitante": "CA Osasuna",
-    "localCrest": "https://crests.football-data.org/558.png",
-    "visitanteCrest": "https://crests.football-data.org/79.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-08-17 21:00",
     "local": "RC Deportivo La Coruña",
     "visitante": "Elche CF",
@@ -149,6 +141,14 @@
     "visitante": "Real Sociedad de Fútbol",
     "localCrest": "https://crests.football-data.org/86.png",
     "visitanteCrest": "https://crests.football-data.org/92.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-08-27 20:30",
+    "local": "RC Celta de Vigo",
+    "visitante": "CA Osasuna",
+    "localCrest": "https://crests.football-data.org/558.png",
+    "visitanteCrest": "https://crests.football-data.org/79.png",
     "liga": "Primera Division"
   },
   {
