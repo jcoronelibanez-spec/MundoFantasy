@@ -1,21 +1,5 @@
 [
   {
-    "fecha": "2026-08-16 17:00",
-    "local": "Real Racing Club de Santander",
-    "visitante": "Villarreal CF",
-    "localCrest": "https://crests.football-data.org/5335.png",
-    "visitanteCrest": "https://crests.football-data.org/94.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-08-16 19:00",
-    "local": "RCD Espanyol de Barcelona",
-    "visitante": "Levante UD",
-    "localCrest": "https://crests.football-data.org/80.png",
-    "visitanteCrest": "https://crests.football-data.org/88.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-08-17 21:00",
     "local": "RC Deportivo La Coruña",
     "visitante": "Elche CF",
@@ -157,6 +141,22 @@
     "visitante": "Villarreal CF",
     "localCrest": "https://crests.football-data.org/263.png",
     "visitanteCrest": "https://crests.football-data.org/94.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-08-29 17:00",
+    "local": "Levante UD",
+    "visitante": "Real Betis Balompié",
+    "localCrest": "https://crests.football-data.org/88.png",
+    "visitanteCrest": "https://crests.football-data.org/90.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-08-29 19:00",
+    "local": "Real Sociedad de Fútbol",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/92.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
     "liga": "Primera Division"
   }
 ]
