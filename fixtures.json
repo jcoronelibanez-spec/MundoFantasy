@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-08-17 21:00",
-    "local": "RC Deportivo La Coruña",
-    "visitante": "Elche CF",
-    "localCrest": "https://crests.football-data.org/560.png",
-    "visitanteCrest": "https://crests.football-data.org/285.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-08-19 21:00",
     "local": "Club Atlético de Madrid",
     "visitante": "Málaga CF",
@@ -157,6 +149,14 @@
     "visitante": "RCD Espanyol de Barcelona",
     "localCrest": "https://crests.football-data.org/92.png",
     "visitanteCrest": "https://crests.football-data.org/80.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-08-29 21:30",
+    "local": "Sevilla FC",
+    "visitante": "Club Atlético de Madrid",
+    "localCrest": "https://crests.football-data.org/559.png",
+    "visitanteCrest": "https://crests.football-data.org/78.png",
     "liga": "Primera Division"
   }
 ]
