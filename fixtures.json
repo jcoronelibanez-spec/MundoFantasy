@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-08-20 21:00",
-    "local": "Rayo Vallecano de Madrid",
-    "visitante": "Deportivo Alavés",
-    "localCrest": "https://crests.football-data.org/87.png",
-    "visitanteCrest": "https://crests.football-data.org/263.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-08-21 21:00",
     "local": "Real Betis Balompié",
     "visitante": "Real Sociedad de Fútbol",
@@ -157,6 +149,14 @@
     "visitante": "Málaga CF",
     "localCrest": "https://crests.football-data.org/86.png",
     "visitanteCrest": "https://crests.football-data.org/84.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-08-30 19:30",
+    "local": "RC Deportivo La Coruña",
+    "visitante": "Valencia CF",
+    "localCrest": "https://crests.football-data.org/560.png",
+    "visitanteCrest": "https://crests.football-data.org/95.png",
     "liga": "Primera Division"
   }
 ]
