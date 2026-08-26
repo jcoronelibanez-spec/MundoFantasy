@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-08-25 21:00",
-    "local": "Valencia CF",
-    "visitante": "Real Betis Balompié",
-    "localCrest": "https://crests.football-data.org/95.png",
-    "visitanteCrest": "https://crests.football-data.org/90.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-08-26 21:00",
     "local": "Real Madrid CF",
     "visitante": "Real Sociedad de Fútbol",
@@ -157,6 +149,14 @@
     "visitante": "FC Barcelona",
     "localCrest": "https://crests.football-data.org/95.png",
     "visitanteCrest": "https://crests.football-data.org/81.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-09-06 18:30",
+    "local": "Deportivo Alavés",
+    "visitante": "CA Osasuna",
+    "localCrest": "https://crests.football-data.org/263.png",
+    "visitanteCrest": "https://crests.football-data.org/79.png",
     "liga": "Primera Division"
   }
 ]
