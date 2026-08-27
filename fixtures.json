@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-08-26 21:00",
-    "local": "Real Madrid CF",
-    "visitante": "Real Sociedad de Fútbol",
-    "localCrest": "https://crests.football-data.org/86.png",
-    "visitanteCrest": "https://crests.football-data.org/92.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-08-27 20:30",
     "local": "RC Celta de Vigo",
     "visitante": "CA Osasuna",
@@ -157,6 +149,14 @@
     "visitante": "CA Osasuna",
     "localCrest": "https://crests.football-data.org/263.png",
     "visitanteCrest": "https://crests.football-data.org/79.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-09-06 18:30",
+    "local": "Málaga CF",
+    "visitante": "Levante UD",
+    "localCrest": "https://crests.football-data.org/84.png",
+    "visitanteCrest": "https://crests.football-data.org/88.png",
     "liga": "Primera Division"
   }
 ]
