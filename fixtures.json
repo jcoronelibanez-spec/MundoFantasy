@@ -1,53 +1,5 @@
 [
   {
-    "fecha": "2026-08-29 17:00",
-    "local": "Levante UD",
-    "visitante": "Real Betis Balompié",
-    "localCrest": "https://crests.football-data.org/88.png",
-    "visitanteCrest": "https://crests.football-data.org/90.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-08-29 19:00",
-    "local": "Real Sociedad de Fútbol",
-    "visitante": "RCD Espanyol de Barcelona",
-    "localCrest": "https://crests.football-data.org/92.png",
-    "visitanteCrest": "https://crests.football-data.org/80.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-08-29 21:30",
-    "local": "Sevilla FC",
-    "visitante": "Club Atlético de Madrid",
-    "localCrest": "https://crests.football-data.org/559.png",
-    "visitanteCrest": "https://crests.football-data.org/78.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-08-30 17:00",
-    "local": "Real Madrid CF",
-    "visitante": "Málaga CF",
-    "localCrest": "https://crests.football-data.org/86.png",
-    "visitanteCrest": "https://crests.football-data.org/84.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-08-30 19:30",
-    "local": "RC Deportivo La Coruña",
-    "visitante": "Valencia CF",
-    "localCrest": "https://crests.football-data.org/560.png",
-    "visitanteCrest": "https://crests.football-data.org/95.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-08-30 21:30",
-    "local": "RC Celta de Vigo",
-    "visitante": "Athletic Club",
-    "localCrest": "https://crests.football-data.org/558.png",
-    "visitanteCrest": "https://crests.football-data.org/77.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-08-31 19:30",
     "local": "CA Osasuna",
     "visitante": "Getafe CF",
@@ -152,11 +104,59 @@
     "liga": "Primera Division"
   },
   {
-    "fecha": "2026-09-13 02:00",
-    "local": "Getafe CF",
-    "visitante": "RC Deportivo La Coruña",
-    "localCrest": "https://crests.football-data.org/82.png",
-    "visitanteCrest": "https://crests.football-data.org/560.png",
+    "fecha": "2026-09-11 21:00",
+    "local": "Sevilla FC",
+    "visitante": "Valencia CF",
+    "localCrest": "https://crests.football-data.org/559.png",
+    "visitanteCrest": "https://crests.football-data.org/95.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-09-12 14:00",
+    "local": "Real Racing Club de Santander",
+    "visitante": "Deportivo Alavés",
+    "localCrest": "https://crests.football-data.org/5335.png",
+    "visitanteCrest": "https://crests.football-data.org/263.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-09-12 16:15",
+    "local": "CA Osasuna",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/79.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-09-12 18:30",
+    "local": "Athletic Club",
+    "visitante": "Elche CF",
+    "localCrest": "https://crests.football-data.org/77.png",
+    "visitanteCrest": "https://crests.football-data.org/285.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-09-12 21:00",
+    "local": "Real Madrid CF",
+    "visitante": "Rayo Vallecano de Madrid",
+    "localCrest": "https://crests.football-data.org/86.png",
+    "visitanteCrest": "https://crests.football-data.org/87.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-09-13 14:00",
+    "local": "RC Celta de Vigo",
+    "visitante": "Málaga CF",
+    "localCrest": "https://crests.football-data.org/558.png",
+    "visitanteCrest": "https://crests.football-data.org/84.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-09-13 16:15",
+    "local": "Levante UD",
+    "visitante": "FC Barcelona",
+    "localCrest": "https://crests.football-data.org/88.png",
+    "visitanteCrest": "https://crests.football-data.org/81.png",
     "liga": "Primera Division"
   }
 ]
