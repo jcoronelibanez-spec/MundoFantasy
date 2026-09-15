@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-09-14 21:00",
-    "local": "Villarreal CF",
-    "visitante": "Real Betis Balompié",
-    "localCrest": "https://crests.football-data.org/94.png",
-    "visitanteCrest": "https://crests.football-data.org/90.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-09-15 19:00",
     "local": "Rayo Vallecano de Madrid",
     "visitante": "RCD Espanyol de Barcelona",
@@ -157,6 +149,14 @@
     "visitante": "Real Sociedad de Fútbol",
     "localCrest": "https://crests.football-data.org/95.png",
     "visitanteCrest": "https://crests.football-data.org/92.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-09 21:00",
+    "local": "Málaga CF",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/84.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
     "liga": "Primera Division"
   }
 ]
