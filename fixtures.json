@@ -1,29 +1,5 @@
 [
   {
-    "fecha": "2026-09-15 19:00",
-    "local": "Rayo Vallecano de Madrid",
-    "visitante": "RCD Espanyol de Barcelona",
-    "localCrest": "https://crests.football-data.org/87.png",
-    "visitanteCrest": "https://crests.football-data.org/80.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-09-15 20:00",
-    "local": "Deportivo Alavés",
-    "visitante": "Valencia CF",
-    "localCrest": "https://crests.football-data.org/263.png",
-    "visitanteCrest": "https://crests.football-data.org/95.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-09-15 21:30",
-    "local": "Elche CF",
-    "visitante": "Real Madrid CF",
-    "localCrest": "https://crests.football-data.org/285.png",
-    "visitanteCrest": "https://crests.football-data.org/86.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-09-16 19:00",
     "local": "RC Deportivo La Coruña",
     "visitante": "Sevilla FC",
@@ -157,6 +133,30 @@
     "visitante": "RCD Espanyol de Barcelona",
     "localCrest": "https://crests.football-data.org/84.png",
     "visitanteCrest": "https://crests.football-data.org/80.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-10 14:00",
+    "local": "Rayo Vallecano de Madrid",
+    "visitante": "Athletic Club",
+    "localCrest": "https://crests.football-data.org/87.png",
+    "visitanteCrest": "https://crests.football-data.org/77.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-10 16:15",
+    "local": "Deportivo Alavés",
+    "visitante": "Club Atlético de Madrid",
+    "localCrest": "https://crests.football-data.org/263.png",
+    "visitanteCrest": "https://crests.football-data.org/78.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-10 18:30",
+    "local": "FC Barcelona",
+    "visitante": "Getafe CF",
+    "localCrest": "https://crests.football-data.org/81.png",
+    "visitanteCrest": "https://crests.football-data.org/82.png",
     "liga": "Primera Division"
   }
 ]
