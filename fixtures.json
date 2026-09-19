@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-09-18 21:00",
-    "local": "RCD Espanyol de Barcelona",
-    "visitante": "Elche CF",
-    "localCrest": "https://crests.football-data.org/80.png",
-    "visitanteCrest": "https://crests.football-data.org/285.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-09-19 14:00",
     "local": "CA Osasuna",
     "visitante": "Rayo Vallecano de Madrid",
@@ -157,6 +149,14 @@
     "visitante": "Sevilla FC",
     "localCrest": "https://crests.football-data.org/88.png",
     "visitanteCrest": "https://crests.football-data.org/559.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-16 21:00",
+    "local": "RC Deportivo La Coruña",
+    "visitante": "Levante UD",
+    "localCrest": "https://crests.football-data.org/560.png",
+    "visitanteCrest": "https://crests.football-data.org/88.png",
     "liga": "Primera Division"
   }
 ]
