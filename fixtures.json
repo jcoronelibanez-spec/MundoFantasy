@@ -1,37 +1,5 @@
 [
   {
-    "fecha": "2026-10-17 14:00",
-    "local": "RCD Espanyol de Barcelona",
-    "visitante": "Club Atlético de Madrid",
-    "localCrest": "https://crests.football-data.org/80.png",
-    "visitanteCrest": "https://crests.football-data.org/78.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-10-17 16:15",
-    "local": "Villarreal CF",
-    "visitante": "Elche CF",
-    "localCrest": "https://crests.football-data.org/94.png",
-    "visitanteCrest": "https://crests.football-data.org/285.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-10-17 18:30",
-    "local": "Real Betis Balompié",
-    "visitante": "FC Barcelona",
-    "localCrest": "https://crests.football-data.org/90.png",
-    "visitanteCrest": "https://crests.football-data.org/81.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-10-17 21:00",
-    "local": "Valencia CF",
-    "visitante": "Athletic Club",
-    "localCrest": "https://crests.football-data.org/95.png",
-    "visitanteCrest": "https://crests.football-data.org/77.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-10-18 14:00",
     "local": "CA Osasuna",
     "visitante": "Real Racing Club de Santander",
@@ -157,6 +125,38 @@
     "visitante": "CA Osasuna",
     "localCrest": "https://crests.football-data.org/559.png",
     "visitanteCrest": "https://crests.football-data.org/79.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-30 21:00",
+    "local": "Villarreal CF",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/94.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-31 14:00",
+    "local": "Levante UD",
+    "visitante": "Club Atlético de Madrid",
+    "localCrest": "https://crests.football-data.org/88.png",
+    "visitanteCrest": "https://crests.football-data.org/78.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-31 16:15",
+    "local": "Rayo Vallecano de Madrid",
+    "visitante": "RC Celta de Vigo",
+    "localCrest": "https://crests.football-data.org/87.png",
+    "visitanteCrest": "https://crests.football-data.org/558.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-31 18:30",
+    "local": "Real Betis Balompié",
+    "visitante": "Málaga CF",
+    "localCrest": "https://crests.football-data.org/90.png",
+    "visitanteCrest": "https://crests.football-data.org/84.png",
     "liga": "Primera Division"
   }
 ]
