@@ -1,37 +1,5 @@
 [
   {
-    "fecha": "2026-10-18 14:00",
-    "local": "CA Osasuna",
-    "visitante": "Real Racing Club de Santander",
-    "localCrest": "https://crests.football-data.org/79.png",
-    "visitanteCrest": "https://crests.football-data.org/5335.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-10-18 16:15",
-    "local": "RC Celta de Vigo",
-    "visitante": "Deportivo Alavés",
-    "localCrest": "https://crests.football-data.org/558.png",
-    "visitanteCrest": "https://crests.football-data.org/263.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-10-18 18:30",
-    "local": "Málaga CF",
-    "visitante": "Real Sociedad de Fútbol",
-    "localCrest": "https://crests.football-data.org/84.png",
-    "visitanteCrest": "https://crests.football-data.org/92.png",
-    "liga": "Primera Division"
-  },
-  {
-    "fecha": "2026-10-18 21:00",
-    "local": "Real Madrid CF",
-    "visitante": "Sevilla FC",
-    "localCrest": "https://crests.football-data.org/86.png",
-    "visitanteCrest": "https://crests.football-data.org/559.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-10-19 21:00",
     "local": "Getafe CF",
     "visitante": "Rayo Vallecano de Madrid",
@@ -157,6 +125,38 @@
     "visitante": "Málaga CF",
     "localCrest": "https://crests.football-data.org/90.png",
     "visitanteCrest": "https://crests.football-data.org/84.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-10-31 21:00",
+    "local": "FC Barcelona",
+    "visitante": "Deportivo Alavés",
+    "localCrest": "https://crests.football-data.org/81.png",
+    "visitanteCrest": "https://crests.football-data.org/263.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-11-01 14:00",
+    "local": "Getafe CF",
+    "visitante": "Sevilla FC",
+    "localCrest": "https://crests.football-data.org/82.png",
+    "visitanteCrest": "https://crests.football-data.org/559.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-11-01 16:15",
+    "local": "Real Racing Club de Santander",
+    "visitante": "Real Madrid CF",
+    "localCrest": "https://crests.football-data.org/5335.png",
+    "visitanteCrest": "https://crests.football-data.org/86.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-11-01 18:30",
+    "local": "Elche CF",
+    "visitante": "Valencia CF",
+    "localCrest": "https://crests.football-data.org/285.png",
+    "visitanteCrest": "https://crests.football-data.org/95.png",
     "liga": "Primera Division"
   }
 ]
