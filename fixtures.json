@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-10-24 14:00",
-    "local": "Rayo Vallecano de Madrid",
-    "visitante": "Elche CF",
-    "localCrest": "https://crests.football-data.org/87.png",
-    "visitanteCrest": "https://crests.football-data.org/285.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-10-24 16:15",
     "local": "Real Racing Club de Santander",
     "visitante": "RCD Espanyol de Barcelona",
@@ -157,6 +149,14 @@
     "visitante": "Deportivo Alavés",
     "localCrest": "https://crests.football-data.org/559.png",
     "visitanteCrest": "https://crests.football-data.org/263.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-11-07 14:00",
+    "local": "Málaga CF",
+    "visitante": "Real Racing Club de Santander",
+    "localCrest": "https://crests.football-data.org/84.png",
+    "visitanteCrest": "https://crests.football-data.org/5335.png",
     "liga": "Primera Division"
   }
 ]
