@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-10-26 21:00",
-    "local": "Sevilla FC",
-    "visitante": "CA Osasuna",
-    "localCrest": "https://crests.football-data.org/559.png",
-    "visitanteCrest": "https://crests.football-data.org/79.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-10-30 21:00",
     "local": "Villarreal CF",
     "visitante": "RCD Espanyol de Barcelona",
@@ -157,6 +149,14 @@
     "visitante": "Getafe CF",
     "localCrest": "https://crests.football-data.org/94.png",
     "visitanteCrest": "https://crests.football-data.org/82.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-11-08 21:00",
+    "local": "Club Atlético de Madrid",
+    "visitante": "FC Barcelona",
+    "localCrest": "https://crests.football-data.org/78.png",
+    "visitanteCrest": "https://crests.football-data.org/81.png",
     "liga": "Primera Division"
   }
 ]
