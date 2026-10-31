@@ -1,13 +1,5 @@
 [
   {
-    "fecha": "2026-10-30 21:00",
-    "local": "Villarreal CF",
-    "visitante": "RCD Espanyol de Barcelona",
-    "localCrest": "https://crests.football-data.org/94.png",
-    "visitanteCrest": "https://crests.football-data.org/80.png",
-    "liga": "Primera Division"
-  },
-  {
     "fecha": "2026-10-31 14:00",
     "local": "Levante UD",
     "visitante": "Club Atlético de Madrid",
@@ -157,6 +149,14 @@
     "visitante": "FC Barcelona",
     "localCrest": "https://crests.football-data.org/78.png",
     "visitanteCrest": "https://crests.football-data.org/81.png",
+    "liga": "Primera Division"
+  },
+  {
+    "fecha": "2026-11-20 21:00",
+    "local": "Athletic Club",
+    "visitante": "RCD Espanyol de Barcelona",
+    "localCrest": "https://crests.football-data.org/77.png",
+    "visitanteCrest": "https://crests.football-data.org/80.png",
     "liga": "Primera Division"
   }
 ]
